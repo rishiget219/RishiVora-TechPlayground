@@ -1,0 +1,22 @@
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Keep provider lock file
+!.terraform.lock.hcl
+
+# Optional: don't commit local variable values
+# terraform.tfvars
+
+# VS Code
+.vscode/
+
+# Windows
+Thumbs.db
+Desktop.ini

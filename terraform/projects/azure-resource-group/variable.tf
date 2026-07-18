@@ -1,0 +1,1 @@
+variable "azurerm_resource_name" {}
