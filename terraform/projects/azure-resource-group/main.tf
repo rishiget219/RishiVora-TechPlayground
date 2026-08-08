@@ -1,3 +1,5 @@
+# Terraform validation practice using GitHub Actions
+
 resource "azurerm_resource_group" "RG-test" {
   for_each = var.azurerm_resource_name
   name     = each.value.name
