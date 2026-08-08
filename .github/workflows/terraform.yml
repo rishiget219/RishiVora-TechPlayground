@@ -3,7 +3,7 @@ name: Terraform CI
 on:
   push:
     branches:
-      - main
+       - feature/terraform-validation
 
   workflow_dispatch:
 
