@@ -6,11 +6,11 @@ terraform {
     }
   }
 
-    backend "azurerm" {
-    resource_group_name  = "rg-rishi"
-    storage_account_name = "storeagepipeline"      # Must be globally unique
-    container_name       = "tfstate-pipeline"
-    key                  = "pipeline.terraform.tfstate" # Name of your state file
+  backend "azurerm" {
+    resource_group_name  = "rg-backend2"
+    storage_account_name = "storagebackend2" # Must be globally unique
+    container_name       = "tfstatebackend2"
+    key                  = "backend.terraform.tfstate" # Name of your state file
   }
 }
 
