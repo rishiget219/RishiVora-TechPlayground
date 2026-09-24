@@ -1,6 +1,6 @@
 # RishiVora Tech Playground
 
-A Terraform-based Azure infrastructure repository for learning, prototyping, and automating Azure resource deployments with reusable modules and GitHub Actions-based delivery.
+Azure Infrastructure Automation using Terraform, GitHub Actions, CI/CD and DevSecOps practices.
 
 ## Overview
 
